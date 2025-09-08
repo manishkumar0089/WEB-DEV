@@ -1,0 +1,44 @@
+/* Element Selector */
+li{
+    background-color: aquamarine;
+}
+
+/* ID Selector  */
+#manish{
+    border: 2px solid rgb(175, 32, 32);
+    background-color: bisque;
+}
+
+#special{
+    font-size: 20px;
+}
+
+  /* Class Selector */
+.mehlawat{
+    font-size: 25px;
+    background-color: burlywood;
+    text-decoration: solid;
+}
+
+  /* Attribute Selector */
+
+a[href='https://google.com']{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: chocolate;
+    font-size: 15px;
+}
+input[type='text']{
+    border: 3px dashed orchid;
+}
+input[disabled]{
+    background-color: aqua;
+}
+
+/* universal selector  */
+/* *{
+    border: 1px solid goldenrod;
+} */
+
+body{
+    border: 2px dashed red;
+}

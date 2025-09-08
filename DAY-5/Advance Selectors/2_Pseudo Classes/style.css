@@ -1,0 +1,58 @@
+/* Hover */
+
+h2{
+    background-color: red;
+}
+
+h2:hover{
+    background-color: green;
+}
+
+/* Active */
+
+/* a[href='https://wikipedia.com']:active{
+    background-color: green;
+} */
+
+/* Visited */
+/* a[href='https://reddit.com']{
+    color:green;
+    background-color: green;
+} */
+/* a[href='https://reddit.com']:visited {
+    color: rgb(224, 79, 210);
+} */
+
+/* Focus */
+input{
+    background-color: antiquewhite;
+}
+
+input:hover{
+    background-color: brown;
+}
+input:focus{
+    background-color: green;
+}
+
+
+/* nth of type */
+/* li:nth-of-type(odd){
+    color:burlywood
+}
+li:nth-of-type(even){
+    color:lightcoral
+}
+li:nth-of-type(6){
+    color:blanchedalmond
+} */
+
+/* li:last-child for the last  */
+
+/* li:first-child for the first  */
+
+/* li:nth-of-type(an+b) */
+
+li:nth-of-type(3n+1){
+    color:chartreuse;
+}

@@ -1,0 +1,15 @@
+/* Adjacent Siblings */
+
+/* Article + section{
+    background-color: aqua;
+} */
+
+/* section+article {
+    background-color: yellowgreen;
+} */
+
+
+/* General Sibling */
+section~article {
+    background-color: blue;
+}

@@ -1,0 +1,9 @@
+/* Descendant */
+section p{
+    color: aqua;
+}
+
+/* Child */
+article> div> p{
+    color:red;
+}

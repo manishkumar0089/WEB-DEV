@@ -1,0 +1,28 @@
+div::first-letter{
+    font-size: 25px;
+    color: orange;
+}
+p::first-line{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span::first-letter{
+    font-size: 100px;
+    color: orange;
+}
+
+/* a[href='https://facebook.com']::first-letter{
+    color:aqua;
+} */
+/* 
+a[href='https://facebook.com']::after{
+    content: "hi i am your pseudo element";
+} */
+
+a[href='https://facebook.com']::before{
+    content: '\1F4F1';
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+}

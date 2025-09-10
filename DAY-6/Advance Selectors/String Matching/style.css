@@ -1,0 +1,14 @@
+/* a[href='https://google.com']{
+    color:green
+} */
+
+a[href^='https']{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+a[href$='org']{
+font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}

@@ -1,0 +1,40 @@
+/* Id */
+#manish{
+    color: red;
+}
+
+/* Class */
+.mehlawat{
+    color: greenyellow;
+}
+
+/* Element */
+/* div{
+    color: red;
+} */
+
+div{
+    color: orange;
+}
+
+/* class can be multiple */
+.live{
+    font-size: 50px;
+}
+
+/* Id must be unique */
+/* #batch{
+    font-size: 400px;
+} */
+
+
+/* Inheritance- Child adapt property from parent few properties */
+ol{
+    font-size: 40px;
+    color: cyan;
+    border: 2px solid black;
+}
+
+ol>li{
+    color: red;
+}

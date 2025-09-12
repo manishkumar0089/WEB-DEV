@@ -1,0 +1,36 @@
+/* Absolue units */
+#abs{
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+/* Relative Units */
+/*1. % */
+/* .a1{
+    font-size: 50%;
+} */
+
+/* .fs {
+    font-size: 20px;
+}
+
+li{
+    font-size: 2em;
+} */
+
+/* 3. rem */
+/* .fs {
+    font-size: 20px;
+}
+
+li{
+    font-size: 2rem;
+} */
+
+/* View width and view height */
+#spidey{
+    background-color: aqua;
+    height:50vh;
+    width: 50vw;
+}

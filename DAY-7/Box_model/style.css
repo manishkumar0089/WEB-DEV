@@ -1,0 +1,30 @@
+.box{
+    width:400px;
+    background-color: bisque;
+    height: 400px;
+    border: 50px dashed yellowgreen;
+    /* border-top: 50px solid red; 
+    border : 2px solid blue;
+    border-right: 20px dashed gold;
+    border-left: 20px dashed gold; */
+
+   /* margin: 80px 50px 40px 100px;
+    /* margin: 80px; */
+    /* margin : top right bottom left */
+    padding: 50px;
+    /* 
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:50px;
+    padding-left:50px;
+     */
+
+}
+
+/* margin */
+/* .box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+} */

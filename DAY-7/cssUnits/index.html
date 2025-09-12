@@ -1,0 +1,59 @@
+<!-- 
+    CSS Units(Measurement):
+    Absolute: px, (cm, mm,inch)-Huge big units 
+    Relative: %, em, rem, vh, vw (dependant)
+             1> %- Take percentage according to parent element
+             2> em - n times of parent one (uses snowball effect)
+             3> rem - n times of root element (no snowball effect)
+             4> vh (view height) - 
+             5> vw (view width)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>CSS Units</h1>
+    <h2>Absolute Units</h2>
+    <p id="abs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, soluta laboriosam temporibus dolor reiciendis officia nulla nisi mollitia fugiat alias saepe ea, placeat, voluptates illum quae doloribus laborum obcaecati? Maiores!
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, soluta laboriosam temporibus dolor reiciendis officia nulla nisi mollitia fugiat alias saepe ea, placeat, voluptates illum quae doloribus laborum obcaecati? Maiores!
+    </p>
+
+    <article class="a1">
+        <p>article 1 Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+    <article class="a2">
+        <p>article 2 Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+    <article class="a3">
+        <p>article 3 Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+
+    <div id="spidey"> Lorem ipsum dolor sit amet.</div>
+    <ul class="fs">
+        <li>Inception</li>
+        <li>Tenet
+        <ul>
+            <li>Tenet 1</li>
+            <li>Tenet 2
+                <ul>
+                    <li>Tenet 2.1</li>
+                    <li>Tenet 2.2</li>
+                    <li>Tenet 2.3</li>
+                </ul>
+                
+            </li>
+            <li>Tenet 3</li>
+        </ul>
+        </li>
+        <li>Interstellar</li>
+        <li>Dark Knight</li>
+    </ul>
+</body>
+</html>

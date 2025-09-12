@@ -1,0 +1,32 @@
+/* h3{
+    display: inline;
+    height: 400px;
+    width: 400px;
+} */
+
+/* display inline-block */
+
+h3{
+    width: 400px;
+    height: 400px;
+    background-color: forestgreen;
+    display: inline-block;
+}
+
+span{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(94, 113, 210);
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    /* margin: auto 150px; */
+    display: inline-block;
+}
+div:nth-of-type(2){
+    /* display: none; */
+    visibility: hidden;
+}

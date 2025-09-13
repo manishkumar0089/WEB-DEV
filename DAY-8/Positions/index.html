@@ -1,0 +1,101 @@
+<!-- 
+    Positions: top, right, bottom, left (these are offsets)
+    Positions:
+            1>Static : Never leave its normal flow (Jis position pe add huya h uske alawa move nhi krta) No offsets work.
+            2>Relative
+            3>Absolute : it take place with respect to most recent positioned parent
+            4>Fixed: It align its position with respect to body and after taking its offset it will 
+                        not change its position and it is not dependent on parent
+            5>Sticky : combination of relative and fixed . depend on parent dimension and offset took according to viewport
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Positions</h1>
+    <!-- Static -->
+    <section id="static">
+        <div style="background-color: yellow;">Div 1</div>
+        <div id="middle" style="background-color: aqua;">Div 2</div>
+        <div style="background-color: violet;">Div 3</div>
+    </section>
+
+    <!-- Relative -->
+    <section id="relative">
+        <div style="background-color: rgb(209, 102, 102);">Div 1</div>
+        <div id="middle" style="background-color: rgba(3, 53, 16,0.5);">Div 2</div>
+        <div style="background-color: rgb(143, 127, 232);">Div 3</div>
+    </section>
+
+    <!-- Absolute -->
+    <section id="absolute">
+        <div style="background-color: rgb(131, 27, 27);">Div 1</div>
+        <div style="background-color: rgb(21, 210, 71);">Div 2</div>
+        <div style="background-color: rgb(4, 1, 25);">Div 3</div>
+    </section> 
+
+    <!-- Fixed -->
+     <section id="fixed">
+        <div style="background-color: rgb(230, 32, 197);">Div 1</div>
+        <div id="middle" style="background-color: orange">Div 2</div>
+        <div style="background-color: rgb(8, 2, 43);">Div 3</div>
+    </section>
+    
+
+    <!-- Randomly added -->
+     <section id="static">
+        <div style="background-color: yellow;">Div 1</div>
+        <div id="middle" style="background-color: aqua;">Div 2</div>
+        <div style="background-color: violet;">Div 3</div>
+    </section><section id="static">
+        <div style="background-color: yellow;">Div 1</div>
+        <div id="middle" style="background-color: aqua;">Div 2</div>
+        <div style="background-color: violet;">Div 3</div>
+
+
+    <!-- Sticky -->
+    <section id="sticky">
+        <div style="background-color: rgb(222, 106, 64);">Div 1</div>
+        <div id="middle" style="background-color: rgba(192, 203, 208, 0.453)">Div 2</div>
+        <div style="background-color: rgb(140, 127, 217);">Div 3</div>
+    </section> 
+
+
+    <!-- Randomly added -->
+     <section id="static">
+        <div style="background-color: yellow;">Div 1</div>
+        <div id="middle" style="background-color: aqua;">Div 2</div>
+        <div style="background-color: violet;">Div 3</div>
+    </section><section id="static">
+        <div style="background-color: yellow;">Div 1</div>
+        <div id="middle" style="background-color: aqua;">Div 2</div>
+        <div style="background-color: violet;">Div 3</div>
+    </section><section id="static">
+        <div style="background-color: yellow;">Div 1</div>
+        <div id="middle" style="background-color: aqua;">Div 2</div>
+        <div style="background-color: violet;">Div 3</div>
+    </section><section id="static">
+        <div style="background-color: yellow;">Div 1</div>
+        <div id="middle" style="background-color: aqua;">Div 2</div>
+        <div style="background-color: violet;">Div 3</div>
+    </section><section id="static">
+        <div style="background-color: yellow;">Div 1</div>
+        <div id="middle" style="background-color: aqua;">Div 2</div>
+        <div style="background-color: violet;">Div 3</div>
+    </section><section id="static">
+        <div style="background-color: yellow;">Div 1</div>
+        <div id="middle" style="background-color: aqua;">Div 2</div>
+        <div style="background-color: violet;">Div 3</div>
+    </section><section id="static">
+        <div style="background-color: yellow;">Div 1</div>
+        <div id="middle" style="background-color: aqua;">Div 2</div>
+        <div style="background-color: violet;">Div 3</div>
+    </section>
+</body>
+</html>

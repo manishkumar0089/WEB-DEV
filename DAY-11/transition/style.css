@@ -1,0 +1,16 @@
+div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border: 2px solid burlywood;
+    transition: 3s;
+    /* transition-duration: 3s; */
+    /* transition-delay:3s ; */
+    /* transition-property: border-radius; */
+    /* transition-timing-function: ; */
+}
+
+div:hover{
+    background-color: greenyellow;
+    border-radius: 50%;
+}

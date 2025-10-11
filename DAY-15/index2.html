@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smooth Sequential Neon Orbs</title>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+      background: #000;
+    }
+
+    .loader {
+      display: flex;
+      height: 100vh;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .orb {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #222;
+      box-shadow: 0 0 5px #000;
+      animation: glow 2s linear infinite;
+    }
+
+    .orb:nth-child(1) {
+      animation-delay: 0s;
+      --color: #ff0055;
+    }
+
+    .orb:nth-child(2) {
+      animation-delay: 0.5s;
+      --color: #00ffff;
+    }
+
+    .orb:nth-child(3) {
+      animation-delay: 1s;
+      --color: #ffff00;
+    }
+
+    .orb:nth-child(4) {
+      animation-delay: 1.5s;
+      --color: #ff00ff;
+    }
+
+    @keyframes glow {
+      0% {
+        transform: scale(1);
+        background-color: #222;
+        box-shadow: 0 0 5px #000;
+      }
+      25% {
+        transform: scale(1.5);
+        background-color: var(--color);
+        box-shadow: 0 0 15px var(--color), 0 0 30px var(--color);
+      }
+      50% {
+        transform: scale(1);
+        background-color: #222;
+        box-shadow: 0 0 5px #000;
+      }
+      100% {
+        transform: scale(1);
+        background-color: #222;
+        box-shadow: 0 0 5px #000;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="loader">
+    <div class="orb"></div>
+    <div class="orb"></div>
+    <div class="orb"></div>
+    <div class="orb"></div>
+  </div>
+</body>
+</html>
